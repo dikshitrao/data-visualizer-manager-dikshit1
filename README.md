@@ -1,89 +1,113 @@
-# Weather Data Visualizer - Asmit
+🌤️ Weather Data Visualizer – Dikshit
+📘 Assignment Overview
 
-## Assignment Overview
-This project is a mini assignment for the course **Programming for Problem Solving using Python**.  
-The goal is to analyze and visualize **daily weather data of Delhi** to understand climate patterns and trends over 5 years.
+This project is a mini assignment for the course Programming for Problem Solving using Python.
+The goal is to analyze and visualize daily weather data of Delhi to understand climate patterns and long-term trends.
 
----
+📂 Dataset
 
-## Dataset
-- **Source:** Daily Delhi Climate dataset (CSV format)  
-- **Columns:**
-  - `date` – Date of observation
-  - `meantemp` – Mean daily temperature (°C)
-  - `humidity` – Mean daily humidity (%)
-  - `wind_speed` – Average wind speed (km/h)
-  - `meanpressure` – Mean daily pressure (hPa)
-- **Cleaned Dataset:** `data/Cleaned_DailyDelhiClimate.csv`  
+Dataset Used: Daily Delhi Climate dataset (CSV format)
 
----
+Main Columns:
 
-## Tools Used
-- Python 3  
-- Jupyter Notebook  
-- Libraries: Pandas, NumPy, Matplotlib, Seaborn  
+date – Date of observation
 
----
+meantemp – Mean daily temperature (°C)
 
-## Project Structure
-weather-data-visualizer-Asmit/
+humidity – Mean daily humidity (%)
+
+wind_speed – Average wind speed (km/h)
+
+meanpressure – Mean daily air pressure (hPa)
+
+Cleaned File: data/Cleaned_DailyDelhiClimate.csv
+
+🛠️ Tools & Technologies
+
+Python 3
+
+Jupyter Notebook
+
+Libraries Used:
+Pandas, NumPy, Matplotlib, Seaborn
+
+📁 Project Structure
+weather-data-visualizer-dikshit/
 │
 ├─ data/
-│ ├─ DailyDelhiClimateTrain.csv
-│ └─ Cleaned_DailyDelhiClimate.csv
+│   ├─ DailyDelhiClimateTrain.csv
+│   └─ Cleaned_DailyDelhiClimate.csv
 │
 ├─ images/
-│ ├─ Daily_Temperature.png
-│ ├─ Humidity_vs_Temperature.png
-│ ├─ Monthly_Temperature.png
-│ └─ Temp_Humidity_Combined.png
+│   ├─ Daily_Temperature.png
+│   ├─ Humidity_vs_Temperature.png
+│   ├─ Monthly_Temperature.png
+│   └─ Temp_Humidity_Combined.png
 │
 ├─ notebook/
-│ └─ Weather_Analysis.ipynb
+│   └─ Weather_Analysis.ipynb
 │
 └─ report/
-└─ Summary.md 
+    └─ Summary.md
 
+📊 Analysis & Visualizations
 
----
+Daily Mean Temperature
+Line chart showing daily temperature trends across multiple years.
 
-## Analysis & Visualizations
-1. **Daily Mean Temperature** – Line chart showing temperature trends over 5 years.  
-2. **Humidity vs Temperature** – Scatter plot to explore correlation between humidity and temperature.  
-3. **Average Monthly Temperature** – Bar chart displaying seasonal variations.  
-4. **Temperature & Humidity Combined** – Line chart showing relationship between temperature and humidity over time.  
+Humidity vs Temperature
+Scatter plot showing how humidity correlates with temperature.
 
----
+Average Monthly Temperature
+Bar chart showing temperature patterns and seasonal variation.
 
-## Insights
-- Temperature rises during summer months and falls during winter.  
-- Humidity has some correlation with temperature trends.  
-- Seasonal patterns are evident in monthly average temperature.  
-- Wind speed and pressure show minor fluctuations without strong seasonal patterns.  
+Combined Trend Plot
+Line chart comparing temperature and humidity on the same timeline.
 
----
+🧠 Key Insights
 
-## How to Run
-1. Open `notebook/Weather_Analysis.ipynb` in Jupyter Notebook.  
-2. Run cells **in order** from top to bottom to load data, clean, analyze, and visualize.  
-3. All cleaned data and plot images are saved in the respective folders (`data/` and `images/`).  
+Clear seasonal patterns: hot summers, cool winters, and mild monsoons.
 
----
-📊 NumPy Statistical Analysis
+Humidity shows moderate correlation with temperature.
 
-This project uses NumPy to compute statistical measures for understanding weather trends across months and years. After grouping the dataset by month, the following key statistics were calculated:
+Monthly temperature analysis reveals strong periodic changes.
+
+Wind speed and pressure show small fluctuations with no strong seasonal trend.
+
+🧮 NumPy Statistical Analysis
+
+NumPy was used to compute essential weather statistics after grouping by month:
 
 ✔ Mean Temperature
 
-Shows the average temperature for each month, helping identify warm and cold periods.
+Shows the average monthly temperature and helps identify climatic trends.
 
 ✔ Minimum & Maximum Temperature
 
-Provides the temperature range, showing seasonal extremes.
+Highlights the temperature range and seasonal extremes.
 
 ✔ Standard Deviation
 
-Indicates how much temperature fluctuates within each month.
-Higher standard deviation = more variation in daily temperature.
+Measures how much temperature varies within a month.
+Higher value = larger day-to-day variation.
 
-ASMIT
+▶️ How to Run the Project
+
+Open:
+notebook/Weather_Analysis.ipynb
+
+Run all cells in order:
+
+Loads the dataset
+
+Cleans and processes the data
+
+Creates visualizations
+
+Saves cleaned files and plots automatically
+
+Check generated files in data/ and images/ folders.
+
+✍️ Author
+
+Dikshit
